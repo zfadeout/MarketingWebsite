@@ -1,0 +1,79 @@
+
+        body{ 
+            margin: 0;
+            padding: 0;
+            font-family: arial;
+            background-color: black;    
+            background: linear-gradient( rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.38),rgba(0,0,0,0.0) ),url(img/kaziah.PNG)no-repeat;
+            background-size:cover;
+            
+        }
+        section
+        {
+            padding: 0 100px;
+            height: 100vh;
+            display: flex;
+            justify-content: left;
+        }
+    
+            ul li{ width: 80px;
+            float:right;
+            text-align: center;
+            border:1px solid white;
+            background-color: black;
+            opacity: 0.8;
+            font-family: sans-serif;
+            padding: 7px;
+            margin-right: 4px;
+        }
+            ul li a{ text-decoration: none; color: white}
+            ul li:hover{ background-color: green;}
+            
+            h2{ position: relative;
+            left:5%;
+            top: 10%;
+            color: black;
+            font-size: 50px;
+            font-family: sans-serif;
+            text-transform: uppercase}
+    
+            h3{ position: absolute;
+            left:5%;
+            top:19%;
+            color:black;
+            font-size: 32px;
+        }
+    
+        .box
+    {
+        position: absolute;
+        max-width: 600px;
+        padding: 50px;
+        background: rgba(255,255,255,.2);
+        box-shadow: 0 5px 15px rgba(0,0,0,.5)
+    }
+    .box h2
+    {
+    
+        margin: 0 0 20px;
+        padding: 0;
+        font-size: 48px;
+        text-transform: uppercase;
+        color: magenta;
+    }
+    .box p
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    
+    .para-color {
+        color: white;
+        background-color: #40061f;
+    }
+    
+    .para-color2 {
+        color: white;
+        background-color: #40061f;
+    }
